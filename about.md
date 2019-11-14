@@ -4,6 +4,8 @@ subtitle: Best orange in town
 img_path: "/images/7.jpg"
 layout: page
 menu:
+  main:
+    weight: 5
   secondary:
     weight: 1
 
