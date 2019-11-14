@@ -4,10 +4,22 @@ sections:
 - type: section_pricing
   template: section_pricing
   section_id: pricing
-  title: Pricing Plans
-  subtitle: You can have a separate pricing page or list everything on the home page.
-  bg: gray
+  title: Costs
+  subtitle: Starbucks Drinks
+  bg: white
   pricingplans:
+  - title: Orange
+    price: '3.00'
+    details: |-
+      # **Details**
+
+      #### kdkxc
+
+      ###### skskks
+    highlight: true
+    actions:
+    - label: Go Home
+      url: https://oval-comet-cb3c8.netlify.com/
   - title: Basic
     price: "$5/m"
     details: |-
@@ -18,6 +30,7 @@ sections:
     actions:
     - label: Order Now
       url: "/signup"
+    highlight: false
   - title: Professional
     price: "$49/m"
     details: |-
@@ -40,6 +53,7 @@ sections:
     actions:
     - label: Order Now
       url: "/signup"
+    highlight: false
 - type: section_faq
   template: section_faq
   section_id: faq
